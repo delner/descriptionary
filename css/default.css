@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	margin:0;
+	padding:0;
+	background:url("../images/site_bg.jpg");
+	font:Verdana, Geneva, sans-serif;
+	font-size:13px;
+}
+h2{
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	font-size:25px;
+	color:#CCCCCC;
+	
+}
+
+h2{
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	font-size:20px;
+	color:#CCCCCC;
+	
+}
+
+h3{
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	font-size:18px;
+	color:#CCCCCC;
+	
+}
+
+h4{
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	font-size:16px;
+	color:#CCCCCC;
+	
+}
+
+a:link{
+	color: blue;
+	font-weight: semi-bold;
+
+}
+
+a:visited{
+	color:red;
+	font-weight: semi-bold;
+
+}
+
+/* ------------------------------ */
+/* 			 Board Art			  */
+/* ------------------------------ */
+#art_abcde{
+	position:absolute;
+	margin:300px 0 0 -3px;
+	width:94px;
+	height:47px;
+	background:url("../images/art_abcde.png") no-repeat;
+	z-index:1001;
+}
+
+#art_rhymes{
+	position:absolute;
+	margin:341px 0 0 1054px;
+	width:67px;
+	height:118px;
+	background:url("../images/art_rhymes.png") no-repeat;
+	z-index:1001;
+}
+
+
+
+/* ------------------------------ */
+/* 	   Main Container/Header	  */
+/* ------------------------------ */
+#main_container {
+	clear:both;
+	width:950px;
+	margin:auto;
+
+}
+
+#main_container #header {
+	clear:both;
+	float:left;
+	width:950px;
+}
+
+#main_container #header #logo{
+	clear:both;
+	float:left;
+	width:450px;
+	height:40px;
+	margin:20px 0 0 0;
+	background:url("../images/logo.png") no-repeat;
+}
+
+
+
+/* ------------------------------ */
+/* 			Navigation			  */
+/* ------------------------------ */
+#main_container #header #navigation{
+	float:left;
+	width:500px;
+	height:25px;
+	margin:20px 0 0 0;
+	padding:15px 0 0 0;
+}
+
+#main_container #header #navigation ul {
+	margin:0;
+	padding:0;	
+	float:right;
+}
+
+#main_container #header #navigation ul li{
+	float:left;
+	list-style:none;
+}
+
+#main_container #header #navigation ul li a {
+	float:left;
+}
+
+	
+	/* ------------------------------ */
+	/* 	    Individual Nav Links	  */
+	/* ------------------------------ */
+	#main_container #header #navigation .nav_login {
+		width:55px;
+		height:21px;
+		padding:0 10px 0 0;
+		background:url("../images/nav_login.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_login:hover {
+		width:55px;
+		height:21px;
+		cursor:pointer;
+		background:url("../images/nav_login_hover.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_logout {
+		width:55px;
+		height:21px;
+		padding:0 10px 0 0;
+		background:url("../images/nav_logout.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_logout:hover {
+		width:55px;
+		height:21px;
+		cursor:pointer;
+		background:url("../images/nav_logout_hover.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_register {
+		width:80px;
+		height:21px;
+		padding:0 10px 0 0;
+		background:url("../images/nav_register.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_register:hover {
+		width:80px;
+		height:21px;
+		cursor:pointer;
+		background:url("../images/nav_register_hover.png") no-repeat;
+	}
+
+	#main_container #header #navigation .nav_dash {
+		width:80px;
+		height:21px;
+		padding:0 10px 0 0;
+		background:url("../images/nav_dash.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_dash:hover {
+		width:80px;
+		height:21px;
+		cursor:pointer;
+		background:url("../images/nav_dash_hover.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_profile {
+		width:80px;
+		height:21px;
+		padding:0 10px 0 0;
+		background:url("../images/nav_profile.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_profile:hover {
+		width:80px;
+		height:21px;
+		cursor:pointer;
+		background:url("../images/nav_profile_hover.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_help {
+		width:45px;
+		height:21px;
+		padding:0 10px 0 0;
+		background:url("../images/nav_help.png") no-repeat;
+	}
+	
+	#main_container #header #navigation .nav_help:hover {
+		width:45px;
+		height:21px;
+		cursor:pointer;
+		background:url("../images/nav_help_hover.png") no-repeat;
+	}
+	
+/* ------------------------------ */
+/* 	   Main Container/Header	  */
+/* ------------------------------ */
+
+	#main_container #content #pageinfo{
+		width:600px;
+		clear:both;
+		float:left;
+		margin-bottom: 5px;
+}
+
+	#main_container #content #pageheader{
+		width:600px;
+		height: 55px;
+		margin-left: 200px;
+		clear:both;
+		float:left;
+}

@@ -1,0 +1,180 @@
+ /*
+	Default Globals
+*/
+
+body, html {
+	margin:0;
+	padding:0;
+	font-family: Tahoma, Verdana, Arial;
+	color: #EEEEEE;
+	background-color: black;
+}
+
+#main_container {
+	clear:both;
+	width:950px;
+	margin:auto;
+}
+
+
+
+
+/*  HEADER Css    */
+#main_container #header {
+	width:950px;
+	clear:both;
+	float:left;
+
+}
+
+#main_container #header #logo{
+	width:450px;
+	height:50px;
+	clear:both;
+	float:left;
+}
+
+
+#main_container #header #navigation{
+	width:950px;
+	height:30px;
+	clear:both;
+	float:left;
+	text-align:right;
+	font-size: 14px;
+}
+
+
+
+
+/*   CONTENT Css       */
+#main_container #content{
+	width:950px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #pageinfo{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #loginblock{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #registrationlink{
+	clear:both;
+	margin-bottom: 1px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 20px;
+}
+
+#form_container {
+	clear:both;
+	float:left;
+	width:500px;
+}
+
+#form_container .field {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+
+#form_container .field label {
+	clear:both;
+	float:left;
+	width:180px;
+}
+
+#submit {
+clear:both;
+float:left;
+
+}
+
+input[type="submit"]{
+
+}
+
+
+
+
+/*   FOOTER Css       */
+#main_container #footer{
+	width:950px;
+	clear:both;
+	float:left;
+	height: 200px;
+	margin-bottom: 0px;
+	margin-left: 15 px;
+	margin-right: 15 px;
+	margin-top: 0;
+	padding-left: 10 px;
+	padding-right: 0;
+}
+#main_container #footer #left_footer{
+	width:310px;
+	float:left;
+}
+#main_container #footer #center_footer{
+	width:310px;
+	float:left;
+}
+#main_container #footer #right_footer{
+	width:310px;
+	float:left;
+}
+.footerstyle ul{
+	float: left;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 1px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 1px;
+	width: 140px;
+}
+
+.footerstyle li{
+	margin-bottom: 6px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 6px;
+	font-size: 12px;
+}
+
+.footerstyle a{
+	color: #DDDDDD;
+	text-decoration: none;
+}
+
+.footerstyle a:hover{
+	text-decoration: underline;
+}
+
+h4{
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}

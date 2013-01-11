@@ -1,0 +1,127 @@
+/* ------------------------------ */
+/* 		New Game  Style 		  */
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* 			 Content			  */
+/* ------------------------------ */
+#main_container #content{
+	clear:both;
+	float:left;
+	width:950px;
+	position:relative;
+	margin:5px 0 0 0;
+	padding:5px;
+	background-color:#000;
+	border:#7f7a83 1px solid;
+	color:#CCCCCC;
+	z-index:1100;
+}
+
+#main_container #content #pageinfo{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #resultMessage{
+	width:589px;
+	clear:both;
+	float:left;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#main_container #content #errorMessage{
+	width:589px;
+	clear:both;
+	float:left;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+#main_container #content #create_game_block
+{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #create_game_block  #public_join_layer
+{
+	width: 560px; 
+	margin-top: 20px; 
+	margin-left: 30px; 
+	padding: 5px;
+	clear:both;
+	float:left;
+	display: none;
+}
+
+#main_container #content #create_game_block  #public_layer
+{
+	width: 560px; 
+	margin-top: 20px; 
+	margin-left: 30px; 
+	padding: 5px;
+	clear:both;
+	float:left;
+	display: none;
+}
+
+#main_container #content #create_game_block  #private_layer
+{
+	width: 560px; 
+	margin-top: 20px; 
+	margin-left: 30px; 
+	padding: 5px;
+	clear:both;
+	float:left;
+	display: none;
+}
+
+#form_container {
+	clear:both;
+	float:left;
+	width:700px;
+}
+
+#form_container .field {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+
+#form_container .field label {
+	clear:both;
+	float:left;
+	font-size: 20px;
+	width:300px;
+}
+
+#form_container .fieldinput label {
+	float:left;
+	width:55px;
+}
+
+
+#submit {
+	clear:both;
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-top: 20px;
+	
+}
+
+
+input[type="submit"]{
+
+
+}

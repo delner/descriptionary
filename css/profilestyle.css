@@ -1,0 +1,76 @@
+/* ------------------------------ */
+/* 			 Profile Style		  */
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* 			 Content			  */
+/* ------------------------------ */
+#main_container #content{
+	clear:both;
+	float:left;
+	width:950px;
+	position:relative;
+	margin:5px 0 0 0;
+	padding:5px;
+	background-color:#000;
+	border:#7f7a83 1px solid;
+	color:#CCCCCC;
+	z-index:1100;
+}
+
+#main_container #content #pageinfo{
+	clear:both;
+	width:600px;
+	float:left;
+}
+
+#main_container #content #profileblock{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#form_container {
+	clear:both;
+	float:left;
+	width:600px;
+}
+
+#form_container .field {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+
+#form_container .field label {
+	clear:both;
+	float:left;
+	width:470px;
+}
+
+#form_container .fieldinput label {
+	float:left;
+	width:55px;
+	padding-bottom: 14px;
+}
+
+#submit {
+	clear:both;
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 1px;
+	margin-left: 340px;
+	margin-right: 0px;
+	margin-top: 10px;
+	
+}
+
+
+input[type="submit"]{
+
+
+}

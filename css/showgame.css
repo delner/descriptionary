@@ -1,0 +1,168 @@
+/* ------------------------------ */
+/* 		Show Game Style		      */
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* 			 Content			  */
+/* ------------------------------ */
+#main_container #content{
+	clear:both;
+	float:left;
+	width:950px;
+	position:relative;
+	margin:5px 0 0 0;
+	padding:5px;
+	background-color:#000;
+	border:#7f7a83 1px solid;
+	color:#CCCCCC;
+	z-index:1100;
+}
+
+#main_container #content .blockheader{
+	
+	
+}
+
+#main_container #content #resultMessage{
+	clear:both;
+	font-weight:bold;
+	margin-left: 10px;
+}
+
+#main_container #content #errorMessage{
+	font-weight:bold;
+	margin-left: 10px;
+}
+
+
+#main_container #content #gameturnblock{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #commentblock{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #insert_comment_block{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #insert_comment_block #textbox{
+	width:570px;
+	clear:both;
+	float:left;
+	margin-left: 20px;
+}
+
+#main_container #content #insert_comment_block #comment_submit_button{
+	width:240px;
+	clear:both;
+	float:left;
+	margin-left: 330px;
+}
+
+/* Style for each game turn*/
+#main_container #content #gameturnblock .indiv_gameturn .turn_title{
+	width:500px;
+	float:left;
+	margin-left: 5px;
+	padding-bottom: 8px;
+	color:#3FF;
+	font-weight:bold;
+	font-size: 20px;
+}
+
+#main_container #content #gameturnblock .indiv_gameturn .turn_content{
+	width:550px;
+	float:left;
+	clear:both;
+	margin-left: 70px;
+	margin-bottom: 20px;
+	font-size: 23px;
+}
+
+#main_container #content #gameturnblock .indiv_gameturn .separator{
+	width:500px;
+	float:left;
+	clear:both;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+
+/*  Style for each comment*/
+#main_container #content #commentblock .indiv_comment{
+	width:590px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #commentblock .indiv_comment .comment_alias{
+	width:250px;
+	float:left;
+	color:#33C;
+	font-weight:bold;
+	font-size: 14px;
+}
+
+#main_container #content #commentblock .indiv_comment .comment_timestamp{
+	width:250px;
+	float:left;
+}
+
+#main_container #content #commentblock .indiv_comment .comment{
+	width:600px;
+	float:left;
+	clear:both;
+	margin-bottom: 23px;
+}
+
+#main_container #content #commentblock .indiv_comment .separator{
+	width:500px;
+	float:left;
+	clear:both;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+
+/* FORM style */
+
+#form_container {
+	clear:both;
+	float:left;
+	width:500px;
+}
+
+#form_container .field {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+
+#form_container .field label {
+	clear:both;
+	float:left;
+	width:180px;
+}
+
+
+#submit {
+	clear:both;
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-top: 20px;
+	
+}

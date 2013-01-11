@@ -1,0 +1,75 @@
+/* ------------------------------ */
+/* 			 Login Style		  */
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* 			 Content			  */
+/* ------------------------------ */
+#main_container #content{
+	clear:both;
+	float:left;
+	width:950px;
+	position:relative;
+	margin:5px 0 0 0;
+	padding:5px;
+	background-color:#000;
+	border:#7f7a83 1px solid;
+	color:#CCCCCC;
+	z-index:1100;
+}
+
+#main_container #content #pageinfo{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #loginblock{
+	width:600px;
+	clear:both;
+	float:left;
+}
+
+#main_container #registrationlink{
+	clear:both;
+	margin-bottom: 1px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 20px;
+}
+
+#form_container {
+	clear:both;
+	float:left;
+	width:500px;
+}
+
+#form_container .field {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+
+#form_container .field label {
+	clear:both;
+	float:left;
+	width:180px;
+}
+
+
+#submit {
+clear:both;
+float:left;
+
+}
+
+input[type="submit"]{
+
+}

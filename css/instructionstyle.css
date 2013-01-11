@@ -1,0 +1,112 @@
+/* ------------------------------ */
+/* 		Help Page Style 		  */
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* 			 Content			  */
+/* ------------------------------ */
+#main_container #content{
+	clear:both;
+	float:left;
+	width:950px;
+	position:relative;
+	margin:5px 0 0 0;
+	padding:5px;
+	background-color:#000;
+	border:#7f7a83 1px solid;
+	color:#CCCCCC;
+	z-index:1100;
+}
+
+#main_container #content #instruction_block{
+	width:750px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #instruction_block #login_caption{
+	width:750px;
+	clear:both;
+	float:left;
+	margin-bottom: 20px;
+}
+
+#main_container #content #instruction_block #login_pic{
+	width:645px;
+	clear:both;
+	float:left; 
+	margin-bottom: 20px;
+	margin-left: 100px; 
+}
+
+#main_container #content #example_block {
+	width:750px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #example_block #example_caption{
+	width:750px;
+	clear:both;
+	float:left;
+	margin-bottom: 20px;
+}
+
+#main_container #content #example_block #example_pic1{
+	width:645px;
+	clear:both;
+	float:left; 
+	margin-bottom: 20px;
+	margin-left: 100px; 
+}
+
+#main_container #content #gameblock #guess_phrase_layer #sub_picture{
+	width: 410px; 
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	margin-left: 100px; 
+	padding: 5px;
+	float:left;
+}
+
+
+#form_container {
+	clear:both;
+	float:left;
+	width:700px;
+}
+
+#form_container .field {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+
+#form_container .field label {
+	clear:both;
+	float:left;
+	font-size: 20px;
+	width:150px;
+}
+
+
+#submit {
+	clear:both;
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-top: 20px;
+	
+}
+
+
+input[type="submit"]{
+
+
+}

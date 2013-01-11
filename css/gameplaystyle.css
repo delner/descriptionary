@@ -1,0 +1,121 @@
+/* ------------------------------ */
+/* 		Game Play Style 		  */
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* 			 Content			  */
+/* ------------------------------ */
+#main_container #content{
+	clear:both;
+	float:left;
+	width:950px;
+	position:relative;
+	margin:5px 0 0 0;
+	padding:5px;
+	background-color:#000;
+	border:#7f7a83 1px solid;
+	color:#CCCCCC;
+	z-index:1100;
+}
+
+#main_container #content #gameblock{
+	width:750px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #gameblock #resultMessage{
+	font-weight:bold;
+	margin-left: 10px;
+}
+
+#main_container #content #gameblock #errorMessage{
+	font-weight:bold;
+	margin-left: 10px;
+}
+
+#main_container #content #gameblock #draw_turn_layer{
+	width:600px;
+	clear:both;
+	float:left;
+	display: none;
+}
+
+#main_container #content #gameblock #draw_turn_layer #passed_phrase_header{
+	width:130px;
+	float:left;
+}
+
+#main_container #content #gameblock #draw_turn_layer #passed_phrase{
+	width:450px;
+	float:left;
+
+}
+
+#main_container #content #gameblock #draw_turn_layer #drawingCanvas{
+	width: 410px; 
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	margin-left: 100px; 
+	padding: 5px;
+	clear:both;
+	float:left;
+}
+
+#main_container #content #gameblock #guess_phrase_layer{
+	width:600px;
+	clear:both;
+	float:left;
+	display: none;
+}
+
+#main_container #content #gameblock #guess_phrase_layer #sub_picture{
+	width: 410px; 
+	margin-top: 20px; 
+	margin-bottom: 20px;
+	margin-left: 100px; 
+	padding: 5px;
+	float:left;
+}
+
+
+#form_container {
+	clear:both;
+	float:left;
+	width:700px;
+}
+
+#form_container .field {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+
+#form_container .field label {
+	clear:both;
+	float:left;
+	font-size: 20px;
+	width:150px;
+}
+
+
+#submit {
+	clear:both;
+	float:left;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 200px;
+	margin-right: 0px;
+	margin-top: 20px;
+	
+}
+
+
+input[type="submit"]{
+
+
+}

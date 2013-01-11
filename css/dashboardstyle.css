@@ -1,0 +1,122 @@
+/* ------------------------------ */
+/* 			Dashboard Style		  */
+/* ------------------------------ */
+
+
+
+/* ------------------------------ */
+/* 			 Content			  */
+/* ------------------------------ */
+#main_container #content{
+	clear:both;
+	float:left;
+	width:950px;
+	position:relative;
+	margin:5px 0 0 0;
+	padding:5px;
+	background-color:#000;
+	border:#7f7a83 1px solid;
+	color:#CCCCCC;
+	z-index:1100;
+}
+
+#main_container #content #pageinfo{
+	clear:both;
+	width:600px;
+	float:left;
+}
+
+#main_container #content #dashboardblock{
+	width:600px;
+	clear:both;
+	float:left;
+	margin-bottom: 30px;
+}
+
+#main_container #content #dashboardblock #new_games_link{
+	width:600px;
+	clear:both;
+	float:left;
+	margin-bottom: 30px;
+}
+
+#main_container #content #dashboardblock #new_games_link #newgame_info{
+	width:600px;
+	clear:both;
+	float:left;
+	margin-bottom: 10px;
+}
+
+#main_container #content #dashboardblock #new_games_link #newgame_button{
+	width:300px;
+	clear:both;
+	float:left;
+	margin-bottom: 0px;
+	margin-left: 205px;
+}
+
+.p_table {
+	border-width: 2px;
+	border-spacing: 5px;
+	/*border-style: solid;
+	border-color: gray; */
+	border-collapse: separate;
+	background-color: ;
+	margin-left: 40px;
+}
+.p_table th {
+	border-width: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 35px;
+	border-style: none;
+	border-color: gray;
+	color: orange;
+	font-weight: bold;
+	font-size: 20px;
+	/*background-color: rgb(255, 255, 240);*/
+	-moz-border-radius: 12px 12px 12px 12px;
+}
+.p_table td {
+	border-width: 1px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 15px;
+	border-style: none;
+	border-color: gray;
+	color: black;
+	font-weight: semi-bold;
+	font-size: 15px;
+	background-color: rgb(255, 255, 240);
+	-moz-border-radius: 12px 12px 12px 12px;
+}
+
+
+#form_container {
+	clear:both;
+	float:left;
+	width:500px;
+}
+
+
+#form_container .field {
+	clear:both;
+	float:left;
+	margin:5px 0 0 0;
+}
+
+
+#form_container .field label {
+	clear:both;
+	float:left;
+	width:340px;
+}
+
+#form_container .fieldinput label {
+	float:left;
+	width:55px;
+}
+
+
